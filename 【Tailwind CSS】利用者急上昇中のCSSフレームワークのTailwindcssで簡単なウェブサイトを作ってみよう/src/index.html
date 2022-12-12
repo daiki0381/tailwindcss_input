@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+  <body>
+    <header class="bg-blue-400 p-4">
+      <nav
+        class="container mx-auto flex justify-between items-center text-white font-bold"
+      >
+        <div class="text-4xl">Tailwind CSS</div>
+        <div class="space-x-12">
+          <a
+            href="#"
+            class="p-2 rounded hover:bg-blue-300 transition-all duration-300"
+            >ホーム</a
+          >
+          <a
+            href="#"
+            class="p-2 rounded hover:bg-blue-300 transition-all duration-300"
+            >ブログ</a
+          >
+          <a
+            href="#"
+            class="p-2 rounded hover:bg-blue-300 transition-all duration-300"
+            >お問い合わせ</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="bg-main-bg min-h-screen bg-cover bg-center object-cover">
+        <div class="container mx-auto md:flex md:justify-around md:items-center py-60 md:py-80">
+          <div class="flex flex-col text-center md:text-left">
+            <h1 class="text-5xl sm:text-7xl">追い風を感じる🚀</h1>
+            <p class="text-xl my-10">Tailwind CSSでスタイリングを加速させる</p>
+            <button class="px-6 py-3 bg-blue-600 rounded-md text-white hover:bg-blue-800 transition-all duration-300 w-max self-center md:self-start">詳しく見る</button>
+          </div>
+          <div>
+            <img src="./images/tailwind-logo.png" alt="tailwind-logo" class="mx-auto mt-24 md:mt-0">
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
